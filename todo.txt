@@ -1,0 +1,10 @@
+# Password hash size to be decided
+
+#1. composer install
+#2. (linux) mysql -u root -p
+#3. create database cuttingage
+#4. grant all on cuttingage.* to 'admin'@'localhost' identified by
+'admin'
+#5. php artisan key:generate
+#6. php artisan up
+#7. php artisan migrate

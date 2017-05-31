@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Welcome to Cutting Age</title>
+	<?php echo HTML::style('//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'); ?>
+
+	<?php echo HTML::script('http://code.jquery.com/juery-1.11.3.min.js'); ?>
+
+	<?php echo HTML::script('//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'); ?>
+
+</head>
+<body>
+	<?php echo $__env->yieldContent('content'); ?>
+</body>
+</html>
